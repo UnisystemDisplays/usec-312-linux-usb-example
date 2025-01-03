@@ -1,0 +1,4 @@
+KERNEL=="sg*" ATTRS{model}=="UniEPDC312BWN0-1" SYMLINK+="eink_usec_312BWN0_1"
+KERNEL=="sg*" ATTRS{model}=="UniEPDC312BWN0-2" SYMLINK+="eink_usec_312BWN0_2"
+KERNEL=="sg*" ATTRS{model}=="UniEPDC312BWN0-3" SYMLINK+="eink_usec_312BWN0_3"
+KERNEL=="sg*" ATTRS{model}=="UniEPDC312BWN0-4" SYMLINK+="eink_usec_312BWN0_4"
