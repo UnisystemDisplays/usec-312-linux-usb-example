@@ -65,11 +65,13 @@ main (void)
 
   /* fullscreen updates with UPDATE_MODE_GC16 mode */
   demo_image_fullscreen (ctx, "images/img_1.png");
+  sleep(2); /* only for demo purposes */
   demo_image_fullscreen (ctx, "images/img_2.png");
+  sleep(2); /* only for demo purposes */
   demo_image_fullscreen (ctx, "images/img_3.png");
+  sleep(2); /* only for demo purposes */
 
   /* screen cleanup */
-  sleep (2);
   screen_cleanup (ctx);
 
   /* cleanup */
